@@ -3,24 +3,33 @@ import { ExternalLink, Github, Cpu, Code, ShoppingCart, Users, Dumbbell, Lock, L
 import { Button } from "@/components/ui/button";
 
 const projects = [
-  {
-    title: "Interactive Attendance Management System",
-    subtitle: "Face Recognition + Automated Logging",
+   {
+    title: "ResumeFit-AI",
+    subtitle: "AI-Powered Resume & ATS Analyzer",
     description:
-      "Smart system that automates attendance tracking using face recognition, real-time logging and a secure admin dashboard.",
-    icon: Users,
-    tags: ["C","Automation"],
+      "Analyzes resumes against job descriptions, generates ATS scores, detects skill gaps, and provides personalized recommendations using Gemini AI.",
+    icon: FileText,
+    tags: ["Next.js", "TypeScript", "Gemini AI", "PDF Parsing"],
     color: "from-primary to-secondary",
     featured: true,
   },
   {
-    title: "Restaurant Digital Menu",
-    subtitle: "Smart Digital Ordering System",
+  title: "AI Crop Disease Diagnosis",
+  subtitle: "Computer Vision for Plant Health Monitoring",
+  description:
+    "AI-powered crop disease detection system that analyzes leaf images and identifies plant diseases using deep learning. Designed to assist farmers with early diagnosis and treatment recommendations.",
+  icon: Brain,
+  tags: ["Deep Learning", "Computer Vision", "TensorFlow", "CNN"],
+  color: "from-primary to-cyber",
+}
+   {
+    title: "Peblo AI Notes Workspace",
+    subtitle: "AI-Powered Productivity Platform",
     description:
-      "A modern restaurant menu interface with category filtering, item descriptions, and responsive UI for seamless customer ordering.",
-    icon: ShoppingCart,
-    tags: ["HTML", "CSS", "JavaScript"],
-    color: "from-secondary to-cyber",
+      "Full-stack SaaS workspace featuring AI-generated insights, autosave architecture, analytics dashboards, public sharing, and modern note management.",
+    icon: Sparkles,
+    tags: ["Next.js", "Prisma", "PostgreSQL", "Gemini AI"],
+    color: "from-primary to-cyber",
   },
   {
     title: "AuraGlow",
@@ -31,42 +40,53 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     color: "from-secondary to-primary",
   },
-  {
-    title: "FreeRTOS Recursive Mutex Demo",
-    subtitle: "Embedded RTOS Synchronization",
+    {
+    title: "StackSave",
+    subtitle: "AI Spend Audit Platform",
     description:
-      "Implemented recursive mutex logic on ESP32 to ensure safe shared resource access in multi-threaded embedded environments.",
-    icon: Cpu,
-    tags: ["RTOS", "ESP32", "Embedded C"],
-    color: "from-primary to-primary/50",
+      "Production-grade platform that audits SaaS and AI subscription spending, identifies waste, and recommends cost optimization opportunities.",
+    icon: BarChart3,
+    tags: ["React", "TypeScript", "Analytics"],
+    color: "from-secondary to-primary",
   },
-  {
-    title: "Patient UI Mobile App",
-    subtitle: "Healthcare Interface Prototype",
+{
+    title: "FlowDo",
+    subtitle: "Modern Task Management Platform",
     description:
-      "Designed a patient-friendly mobile UI with appointment scheduling, health record display, and smooth navigation.",
-    icon: Smartphone,
-    tags: ["UI/UX", "Figma", "Mobile Design"],
-    color: "from-cyber to-primary",
+      "Full-stack task management application with authentication, protected routes, optimistic updates, and responsive dashboards.",
+    icon: Database,
+    tags: ["Next.js", "Strapi", "JWT", "Tailwind"],
+    color: "from-secondary to-cyber",
   },
-  {
-    title: "SVM Visualizer",
-    subtitle: "Interactive ML Decision Boundary Tool",
+ {
+    title: "AutoStream Agent",
+    subtitle: "Social-to-Lead AI Workflow",
     description:
-      "Visual tool that demonstrates Support Vector Machine classification with real-time parameter tuning and hyperplane visualization.",
-    icon: LineChart,
-    tags: ["Machine Learning", "Python", "Visualization"],
+      "LangGraph-powered conversational AI agent that combines RAG, lead qualification, tool execution, and automated workflow orchestration.",
+    icon: Workflow,
+    tags: ["LangGraph", "RAG", "LLM", "Automation"],
+    color: "from-cyber to-secondary",
+  },
+    {
+    title: "AI Resume Evaluator Agent",
+    subtitle: "Autonomous Candidate Screening System",
+    description:
+      "AI workflow that evaluates resumes, scores candidates, and delivers recruiter-ready reports through automated communication channels.",
+    icon: FileText,
+    tags: ["AI Agents", "Automation", "Email", "Telegram"],
     color: "from-primary to-secondary",
   },
   {
-    title: "Rabin-Karp Pattern Matcher",
-    subtitle: "Efficient String Searching",
+    title: "MagicBrush Pro",
+    subtitle: "Generative AI Image Editing",
     description:
-      "Optimized implementation of the Rabin-Karp algorithm for fast substring matching using rolling hash techniques.",
-    icon: Code,
-    tags: ["Algorithms", "C++", "Pattern Matching"],
-    color: "from-cyber to-secondary",
+      "Localized image editing system that performs instruction-based modifications while preserving the remaining image with minimal distortion.",
+    icon: Sparkles,
+    tags: ["Generative AI", "Computer Vision", "Image Editing"],
+    color: "from-cyber to-primary",
   },
+
+ 
   {
     title: "Digital OTP Lock (STM32)",
     subtitle: "Smart Embedded Security System",
@@ -93,16 +113,8 @@ const projects = [
     icon: Users,
     tags: ["Full-Stack", "React", "Node.js"],
     color: "from-secondary to-cyber",
-  },
-  {
-    title: "Portfolio Website",
-    subtitle: "Professional Personal Brand",
-    description:
-      "Your official developer portfolio built using React + Tailwind + Framer Motion, featuring animations and modern UI design.",
-    icon: Globe,
-    tags: ["React", "TypeScript", "Tailwind"],
-    color: "from-secondary to-primary",
-  },
+  }
+
 ];
 
 export const Projects = () => {
