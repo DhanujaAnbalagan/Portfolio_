@@ -14,7 +14,7 @@ const projects = [
     featured: true,
   },
 
-  
+
   {
     title: "AI Crop Disease Diagnosis",
     subtitle: "Computer Vision for Plant Health Monitoring",
@@ -105,15 +105,7 @@ const projects = [
     color: "from-cyber to-primary",
   },
 
-  {
-    title: "FreeRTOS Recursive Mutex Demo",
-    subtitle: "Embedded RTOS Synchronization",
-    description:
-      "Implemented recursive mutex synchronization on ESP32 to ensure safe shared-resource access in multitasking environments.",
-    icon: Cpu,
-    tags: ["RTOS", "ESP32", "Embedded C"],
-    color: "from-primary to-cyber",
-  },
+  
 ];
 
 export const Projects = () => {
@@ -212,4 +204,4 @@ export const Projects = () => {
       </div>
     </section>
   );
-};
+}; add project related to AI , FULLSTACK  REMOVE RABIN KAR P , PORTFOLIO WEBSITE ,INTERACTIVE ATTENDAM=NCE , AND ADD MY GIVEN PROJECTS
