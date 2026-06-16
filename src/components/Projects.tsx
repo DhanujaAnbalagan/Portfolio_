@@ -1,5 +1,16 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Github, Cpu, Code, ShoppingCart, Users, Dumbbell, Lock, LineChart, Globe, Brain, Smartphone, FileText } from "lucide-react";
+import {
+  Github,
+  Cpu,
+  Users,
+  Lock,
+  Brain,
+  FileText,
+  Sparkles,
+  BarChart3,
+  Database,
+  Workflow,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
