@@ -1,136 +1,187 @@
-🌐 Dhanuja A — Portfolio Website
+# 🚀 Dhanuja A — Portfolio
 
-This repository contains the complete source code for my personal portfolio website — a modern, responsive, and interactive platform showcasing my projects, skills, achievements, and engineering journey.
+A modern, high-performance portfolio website showcasing my work across Artificial Intelligence, Full-Stack Development, Embedded Systems, and Software Engineering.
 
-Built using React, TypeScript, TailwindCSS, and Framer Motion, the site is designed to highlight work across AI/ML, Web Development, Embedded Systems, and System Design.
+Built with React, TypeScript, Tailwind CSS, and Framer Motion, the portfolio serves as a centralized platform for demonstrating technical projects, research initiatives, engineering skills, and professional achievements.
 
-🚀 Features
-⭐ Modern UI/UX
+## 🌐 Live Portfolio
 
-Sleek, minimal, and AI-themed interface
+**Website:** https://portfolio-sigma-six-25.vercel.app/
 
-Fully responsive across devices
+---
 
-Smooth animations powered by Framer Motion
+## 👨‍💻 About
 
-⭐ Project Showcases
+I am a Computer Science Engineering student at Amrita Vishwa Vidyapeetham with interests spanning:
 
-Includes detailed sections for:
+* Artificial Intelligence & Machine Learning
+* Full-Stack Web Development
+* System Design & Backend Engineering
+* Embedded Systems & IoT
+* Software Architecture
 
-AI/ML tools & visualizers
+This portfolio highlights projects ranging from AI-powered applications and research systems to production-grade web platforms and embedded solutions.
 
-Full-Stack applications
+---
 
-Embedded systems projects (STM32, ESP32, RTOS)
+## ✨ Key Features
 
-System-level utilities
+### Professional Project Showcase
 
-Open-source contributions
+Curated collection of engineering projects including:
 
-⭐ Professional Branding
+* AI-powered applications
+* Full-stack SaaS platforms
+* Research and retrieval systems
+* Embedded and IoT solutions
+* Algorithmic implementations
 
-Custom-built sections: About, Experience, Projects, Skills, Certifications, Contact
+### Modern User Experience
 
-SEO optimized metadata
+* Fully responsive design
+* Smooth Framer Motion animations
+* Interactive project galleries
+* Clean and intuitive navigation
+* Mobile-first approach
 
-Social link integrations
+### Professional Branding
 
-⭐ Fast & Scalable
+* Personal introduction
+* Technical skills overview
+* Certifications and achievements
+* Project portfolio
+* Contact and social links
 
-Vite-powered build
+### Performance Optimized
 
-TailwindCSS utility system
+* Vite-powered builds
+* Optimized asset delivery
+* Fast page loads
+* Component-driven architecture
+* Scalable codebase
 
-Component-driven architecture
+---
 
-🛠️ Tech Stack
-Frontend
+## 🛠 Tech Stack
 
-React
+### Frontend
 
-TypeScript
+* React
+* TypeScript
+* Tailwind CSS
+* Framer Motion
 
-TailwindCSS
+### Tooling
 
-Framer Motion
+* Vite
+* ESLint
+* Prettier
 
-Build Tools
+### Deployment
 
-Vite
+* Vercel
 
-ESLint + Prettier
+---
 
-Deployment
+## 📂 Featured Projects
 
-Vercel
+### ResumeFit-AI
 
-📁 Project Structure
+AI-powered resume evaluation platform that performs ATS scoring, skill-gap analysis, and job-description matching using Gemini AI.
+
+### Transcript-Dominant Video Moment Retrieval
+
+Research-oriented AI system that retrieves precise lecture-video timestamps from natural language queries using Whisper, SBERT, BART, and FAISS.
+
+### Peblo AI Notes Workspace
+
+AI-enhanced productivity platform featuring intelligent note generation, analytics dashboards, public sharing, and SaaS-inspired workflows.
+
+### StackSave
+
+AI spend-audit platform that identifies subscription waste, redundant tooling, and optimization opportunities for engineering teams.
+
+### FlowDo
+
+Production-grade task management platform built with Next.js and Strapi, featuring authentication, protected routes, and real-time task management.
+
+---
+
+## 📁 Project Structure
+
+```text
 Portfolio_1/
-│── public/             # Static assets
-│── src/
-│   ├── components/     # Reusable UI components
-│   ├── hooks/          # Custom React hooks
-│   ├── pages/          # Website sections (Home, Projects, About, etc.)
-│   ├── utils/          # Helper functions
-│   ├── App.tsx         # Root application
-│   ├── main.tsx        # Entry point
-│── index.html          # Main HTML template
-│── tailwind.config.js  # Tailwind config
-│── package.json        # Dependencies and scripts
-│── tsconfig.json       # TypeScript config
+├── public/
+├── src/
+│   ├── components/
+│   ├── hooks/
+│   ├── pages/
+│   ├── utils/
+│   ├── App.tsx
+│   └── main.tsx
+├── index.html
+├── package.json
+├── tailwind.config.ts
+├── vite.config.ts
 └── README.md
+```
 
-🔥 Highlighted Projects Featured in Portfolio
-🧠 SVM Explorer
+---
 
-Interactive ML visualization tool to explore SVM classification, hyperplanes, and margins.
+## 🚀 Getting Started
 
-💬 StudyHive
+### Clone the Repository
 
-A full-stack collaborative learning platform for real-time study groups.
-
-⚙️ FreeRTOS Recursive Mutex Demo
-
-Demonstrates thread synchronization on ESP32 using recursive mutexes.
-
-🍽️ Restaurant Digital Menu
-
-Digital order display system built with embedded programming concepts.
-
-🔍 Rabin-Karp String Matcher
-
-Optimized string searching algorithm implemented in C++.
-
-✨ AuraGlow
-
-Beauty-product discovery website with responsive design & clean UI.
-
-🔐 Digital OTP Lock (STM32)
-
-IR-sensor based OTP authentication embedded security system.
-
-🎮 BodyQuest Discover
-
-Gamified fitness application with progress tracking & UI menu design.
-
-🧪 Run Locally
-1️⃣ Clone the repository
+```bash
 git clone https://github.com/DhanujaAnbalagan/Portfolio_1.git
+```
 
-2️⃣ Install dependencies
+### Install Dependencies
+
+```bash
 npm install
+```
 
-3️⃣ Start development server
+### Start Development Server
+
+```bash
 npm run dev
+```
 
-4️⃣ Build for production
+### Build for Production
+
+```bash
 npm run build
+```
 
-🌍 Live Website
-https://portfolio-sigma-six-25.vercel.app/
+---
 
-🤝 Connect With Me
+## 📈 Highlights
 
-💼 LinkedIn: https://www.linkedin.com/in/DhanujaAnbalagan
+* AI & Machine Learning Projects
+* Full-Stack SaaS Applications
+* Research-Oriented Systems
+* Embedded & IoT Development
+* Modern Frontend Engineering
+* Production Deployment Experience
+* Open Source Contributions
 
-🧑‍💻 GitHub: https://github.com/DhanujaAnbalagan
+---
+
+## 🤝 Connect With Me
+
+### GitHub
+
+https://github.com/DhanujaAnbalagan
+
+### LinkedIn
+
+https://www.linkedin.com/in/DhanujaAnbalagan
+
+### Portfolio
+
+https://portfolio-sigma-six-25.vercel.app
+
+---
+
+⭐ If you find this portfolio interesting, feel free to explore the projects and connect with me.
