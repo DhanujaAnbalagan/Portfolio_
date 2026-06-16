@@ -21,7 +21,7 @@ const projects = [
   icon: Brain,
   tags: ["Deep Learning", "Computer Vision", "TensorFlow", "CNN"],
   color: "from-primary to-cyber",
-}
+},
    {
     title: "Peblo AI Notes Workspace",
     subtitle: "AI-Powered Productivity Platform",
@@ -31,15 +31,7 @@ const projects = [
     tags: ["Next.js", "Prisma", "PostgreSQL", "Gemini AI"],
     color: "from-primary to-cyber",
   },
-  {
-    title: "AuraGlow",
-    subtitle: "Skincare Product Discovery Platform",
-    description:
-      "A clean and aesthetic beauty-tech website enabling users to browse skincare products, view ingredients, and explore categories.",
-    icon: Globe,
-    tags: ["HTML", "CSS", "JavaScript"],
-    color: "from-secondary to-primary",
-  },
+
     {
     title: "StackSave",
     subtitle: "AI Spend Audit Platform",
