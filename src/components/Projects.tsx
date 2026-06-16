@@ -204,4 +204,4 @@ export const Projects = () => {
       </div>
     </section>
   );
-}; add project related to AI , FULLSTACK  REMOVE RABIN KAR P , PORTFOLIO WEBSITE ,INTERACTIVE ATTENDAM=NCE , AND ADD MY GIVEN PROJECTS
+}; 
